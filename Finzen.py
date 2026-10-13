@@ -10,7 +10,7 @@ import aiosqlite
 from aiohttp import web
 
 # Токен берется из переменных окружения Render или вставляется напрямую
-TOKEN = os.getenv("8936818322:AAHH-kXtO4wZOgBeSN9YyqkVGBnpnTn-aFw")
+TOKEN = os.getenv("BOT_TOKEN") or "8936818322:AAHH-kXt04wZOgBeSN9YyqkVGBnpnTn-aFw"
 DB_NAME = "finzen.db"
 
 # --- БЛОК РАБОТЫ С БАЗОЙ ДАННЫХ ---
